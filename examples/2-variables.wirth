@@ -1,0 +1,21 @@
+program Var;
+
+var a: int = 5; { Global statically typed variable (type int) }
+let b = "str"; { Globally dynamically type variable }
+let b: str = "str"; { Same as the orginal b, except assigning say an int here would convert it to a str }
+const a = 5; { No statically typing constant variables }
+
+begin
+  var c: dec = 5.5; { Local statically typed variable  (type dec, or in C a float) }
+  let d; { Local dynamically typed variable (defaults to 0) }
+  const d; { Local static variable (defaults to 0) }
+  println(a);
+  println(b);
+  println(c);
+  println(d)
+end.
+
+expected ("""5
+str
+5.5
+0\n""");

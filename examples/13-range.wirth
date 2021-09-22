@@ -1,0 +1,8 @@
+namespace Range;
+
+begin
+  let a = 5 .. 10;
+  loop foreach i: a begin
+    println(i)
+  end;
+end.

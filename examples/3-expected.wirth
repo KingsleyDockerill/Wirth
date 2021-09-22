@@ -1,0 +1,8 @@
+program Expected;
+
+begin
+  print("Hello, ");
+  expected ("Hello, world!\n"); { Gets an error: "Hello, " is the only thing in the output right now so "Hello, world!\n" isn't in the output }
+  println("world!");
+  expected ("Hello, world!\n"); { No error: don't forget the newline! }
+end.

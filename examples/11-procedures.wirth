@@ -1,0 +1,9 @@
+program Procedures;
+
+procedure Echo(let msg) begin
+  println(readln(msg))
+end;
+
+begin
+  Echo("Enter a msg and I will echo it back: ")
+end.

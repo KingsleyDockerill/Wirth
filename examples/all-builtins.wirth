@@ -1,0 +1,20 @@
+begin
+  print() { Writes a variable of any type to stdout without a newline }
+  println() { Writes a variable of any type to stdout with a newline }
+  readln() { Read a line from stdin }
+  read() { Read a key from stdin }
+  write() { Writes a string to stdout without a newline }
+  writeln() { Writes a string to stdout with a newline }
+  readnum() { Reads a number from the keyword }
+  add() { Adds all args together }
+  sub() { Subtracts all args together }
+  mul() { Multiplies all args together }
+  div() { Divides all args by the first }
+  mod() { Applies modulus to all args together }
+  push() { Pushes an element to a vector }
+  pop() { Pops an element from a vector }
+  len() { Gets the length of an array/vector/str }
+  val() { Get the value of a pointer }
+  ref() { Get the reference (pointer) of a variable }
+  prog() { Get the program name }
+end.

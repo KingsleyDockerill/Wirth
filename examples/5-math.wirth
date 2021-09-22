@@ -1,0 +1,16 @@
+program Math;
+
+begin
+  println(5 + 5) { Addition }
+  println(5 - 5) { Subtraction }
+  println(5 * 5) { Multiplication }
+  println(5 / 5) { Division }
+  println(5 ** 5) { Power }
+  println(5 % 5) { Modulus }
+  println(5 * (5 + 5)) { Grouping }
+  println(add(5, 6, 7, 8, 9, 10)) { Adds all args together }
+  println(sub(5, 6, 7, 8, 9, 10)) { Subtracts all args together }
+  println(mul(5, 6, 7, 8, 9, 10)) { Multiplies all args together }
+  println(div(10, 5)) { Divides all args by the first }
+  println(mod(5, 6, 7, 8, 9, 10)) { Applies modulus to all args together }
+end.

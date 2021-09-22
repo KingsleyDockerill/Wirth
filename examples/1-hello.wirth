@@ -1,0 +1,11 @@
+{ Comment }
+
+program Hello; { This isn't necassary: defaults to main }
+
+begin
+  println("Hello, world!");
+  println("Hello, again!")
+end.
+
+{ You can do this for testing. It isn't required, but is helpful. It can be used at any point in the program, but position matters }
+{ expected ("Hello, world!\n"); }

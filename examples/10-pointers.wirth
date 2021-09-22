@@ -1,0 +1,7 @@
+program Ptr;
+
+begin
+  let a = 5;
+  var b: ptr = ref(a);
+  println(a, val(b))
+end.

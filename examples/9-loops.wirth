@@ -1,0 +1,30 @@
+program Loops;
+
+begin
+  var a: vector(str) = ["Hello", ", ", "world!"]
+  loop foreach i: a begin
+    write(i)
+  end;
+  writeln()
+  var b: int
+  loop while b < size(a) begin
+    write(a[b])
+    i += 1
+  end;
+  writeln()
+  loop for i: size(a): 10: begin
+    write(a[i])
+  end;
+  loop for i: 10000: 10: begin
+    if i > 5 begin
+      continue
+    else
+      break
+    end;
+  end;
+  var b: int
+  loop until b > size(a) begin
+    write(a[b])
+    i += 1
+  end;
+end.

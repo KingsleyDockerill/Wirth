@@ -1,0 +1,7 @@
+program Echo;
+
+begin
+  { Echo! }
+  let a = readln("Enter stuff: ")
+  println(a)
+end.

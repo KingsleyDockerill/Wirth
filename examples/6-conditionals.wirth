@@ -1,0 +1,12 @@
+program Conditionals;
+
+begin
+  let a = readln()
+  if a == "hi" begin
+    println("Hi!")
+  elif a == "hello"
+    println("Hello!")
+  else
+    println("Hello there!")
+  end;
+end.
